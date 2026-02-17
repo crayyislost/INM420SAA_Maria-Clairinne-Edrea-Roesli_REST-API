@@ -1,0 +1,36 @@
+.title {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 15,
+        "SHLN" 50;
+    font-size: 100px;
+    animation: titleAnimation 2s infinite;
+}
+
+@keyframes titleAnimation {
+    0% {transform: translateX(20px);}
+    50% {transform: translateX(70px);}
+    100% {transform: translateX(20px);}
+}
+
+#weather-info{
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background: whitesmoke;
+    padding: 5px;
+    border-radius: 10px;
+    width: 400px;
+    padding-left: 40px;
+}
+
+body {
+    margin-left: 90px;
+    margin-right: 90px;
+    background-image: url("/assets/images/cat_background.jpg");
+}
